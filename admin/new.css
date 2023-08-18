@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  /* Navbar Styles */
+.navbar {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Add media query for responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .nav-list li {
+        margin: 10px 0;
+    }
+}
